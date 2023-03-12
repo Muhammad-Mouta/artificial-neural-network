@@ -25,7 +25,7 @@ class _NeuralNetworkLayer():
             The values of the layer. (g(Z), where g is the activation function)
         activation : str, default = "sigmoid"
             The name of the activation function used in the layer, and it could
-            be one of ["linear", "sigmoid", "tanh", "relu", "leaky_relu", "softmax"]
+            be one of ["linear", "sigmoid", "tanh", "relu", "leaky_relu"]
         alpha : The hyperparameter used with the leaky relu activation
             
         Returns
