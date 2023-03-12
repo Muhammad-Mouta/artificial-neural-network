@@ -48,7 +48,9 @@ y_pred = np.argmax(Y_pred, axis=0).reshape(-1, 1)
 # Compute the accuracy
 print(classification_report(y_test, y_pred))
 ```
-Output:  precision    recall  f1-score   support
+Output: 
+```
+        precision    recall  f1-score   support
 
            0       1.00      1.00      1.00        16
            1       1.00      0.89      0.94        18
@@ -57,5 +59,6 @@ Output:  precision    recall  f1-score   support
     accuracy                           0.96        45
    macro avg       0.95      0.96      0.95        45
 weighted avg       0.96      0.96      0.96        45
+```
 
 **Notice that sklearn is only used for importing the dataset, data preparation and classification report**
