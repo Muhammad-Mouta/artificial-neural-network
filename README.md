@@ -33,7 +33,7 @@ Y_train = ohe.fit_transform(y_train).T
 # Input_Layer: (4, tanh), Hidden_Layer: (4, tanh), Output_Layer: (3, sigmoid)
 nn = dl.NeuralNetwork(n=[4, 4, 3], activations=['tanh', 'tanh', 'sigmoid'])
 
-# Initialize a trainer with learning rate=0.03
+# Initialize a trainer with learning rate=0.01
 t = dl.Trainer(alpha=0.01)
 
 # Train the nn 
