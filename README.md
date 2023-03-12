@@ -50,7 +50,7 @@ print(classification_report(y_test, y_pred))
 ```
 Output: 
 ```
-        precision    recall  f1-score   support
+               precision    recall  f1-score   support
 
            0       1.00      1.00      1.00        16
            1       1.00      0.89      0.94        18
